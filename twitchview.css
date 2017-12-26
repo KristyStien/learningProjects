@@ -1,0 +1,151 @@
+body{
+    background-color: #b2b4b2;
+    color: #313435;
+}
+
+.center {
+    background-color: #707372;
+    margin: 20px auto;
+    width: 60%;
+    height: fit-content;
+    padding: 30px 0px;
+}
+
+h1{
+    font-family: 'Exo 2', sans serif;
+    font-style: italic;
+    font-weight: 800;
+    padding: 0px 30px;
+}
+
+.yellow-border{
+    border-top-color: #F7BA0B;
+    border-bottom-color: #F7BA0B;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-style: solid;
+    border-right: none;
+    border-left: none;  
+}
+
+#menu {
+    font-family: 'Exo 2', sans serif;
+    font-style: italic;
+    padding: 0px;
+    float: right;
+    text-align: right;
+    /* width: 30px; */
+    align-items: flex-end;
+}
+
+.a {
+    background-color:   #007243;
+    
+}
+
+.on{
+    background-color: #C1121C;
+}
+
+.off{
+    background-color:  #00387b;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 1px solid #F7BA0B;
+    float: left;
+}
+
+.m-circ{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 2px 10px; 
+   
+}
+
+#all{
+    padding: 0 10px 0 0 ;
+    height: 20px;
+}
+
+#online{
+     padding: 0 10px 0 0 ;
+     height: 20px;
+
+}
+
+#offline{
+     padding: 0 10px 0 0 ;
+     height: 20px;  
+}
+
+.o{
+    width: 150px;
+}
+
+.c{
+    width: 30px;
+}
+
+button{
+    font-family: 'Exo 2', sans serif;
+    font-style: italic;
+    color: #313435;
+    -webkit-transition: width 1s linear 10ms;
+    -moz-transition: width 1s linear 10ms;
+    transition: width 1s linear 10ms;
+}
+
+button:hover {
+    width: 150px
+}
+
+.user{
+    min-height: 60px;
+    font-family: 'Exo 2', sans serif;
+    font-style: italic;
+    color: #313435;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-size: contain;
+    
+}
+
+a{
+    display: inline;
+    margin: 20px 30px 0px 30px;
+    padding-left: 100px;
+    font-size: 30px;
+    color: #F7BA0B;
+    width: 30%;
+}
+
+.no{
+    background-color:  rgba(0, 56, 123, .7);
+}
+
+.yes{
+    background-color: rgba(193, 18, 28, .7);
+}
+
+.midText{
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+    position: absolute;
+    right: 40%;
+}
+
+p{
+    text-align: center;
+    padding: 20px 10px 3px 10px;
+    font-size: 20px;
+}
