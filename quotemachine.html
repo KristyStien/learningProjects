@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="quotemachine.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+   
+    <title>Random Quote Generator</title>
+</head>
+<body>
+    <div class="quoteBox">
+        <h1>
+            <i class="fa fa-quote-left" aria-hidden="true">
+                <span> </span>
+            </i>
+            <span id="theQuote"></span>
+            <span> </span>
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+        </h1>
+        <p id="theWriter">- attribution</p>
+        <button id="tweeter">
+            <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+        </button>
+        <span class="spacer"></span>
+        <button id="newQuote">NEW QUOTE</button>
+    </div>
+    <div id="polygon" class="penta"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="quotemachine.js"></script>
+</body>
+</html>

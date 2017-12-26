@@ -1,0 +1,119 @@
+
+.quoteBox{
+    position: absolute;
+    background-color : #ffffff;
+    padding : 10px 10px 10px 10px;
+    width: 33%;
+    left: 0;
+    right: 0;
+    margin: 15% auto;
+    z-index: 10;
+    text-align: center;
+    border-radius: 15%;
+    font-family: "Trebuchet MS", Geneva, sans-serif;
+    
+}
+#newQuote{
+  color:#ffffff;
+  font-weight: bold;
+  background-color: #333;
+  border-radius: 10%;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.spacer {
+    width: 30%;
+    display: inline-block;
+}
+#tweeter{
+    background: transparent;
+    border: none;
+}
+#theWriter {
+margin-bottom: 5%;
+}
+
+#polygon {
+    width: 5vw;
+    height: 5vw;
+    margin: 30px;
+    padding: 30px;
+    display: inline-block;
+    
+    
+ 
+
+}
+
+/* Polygon classes */
+.penta {
+    -webkit-clip-path: polygon(
+    50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%
+  );
+  -moz-clip-path: polygon(
+    50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%
+  );
+  -ms-clip-path: polygon(
+    50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%
+  );
+    clip-path: polygon(
+    50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%
+  );
+}
+.hexa {
+  -webkit-clip-path: polygon(
+    50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%
+  );
+  -moz-clip-path: polygon(
+    50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%
+  );
+  -ms-clip-path: polygon(
+    50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%
+  );
+  clip-path: polygon(
+    50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%
+  );
+}
+.hepta {
+  -webkit-clip-path: polygon(
+    50% 0, 90% 19%, 100% 62%, 72% 100%, 28% 100%, 0 62%, 10% 19%
+  );
+  -moz-clip-path: polygon(
+    50% 0, 90% 19%, 100% 62%, 72% 100%, 28% 100%, 0 62%, 10% 19%
+  );
+  -ms-clip-path: polygon(
+    50% 0, 90% 19%, 100% 62%, 72% 100%, 28% 100%, 0 62%, 10% 19%
+  );
+  clip-path: polygon(
+    50% 0, 90% 19%, 100% 62%, 72% 100%, 28% 100%, 0 62%, 10% 19%
+  );
+}
+.octa {
+  -webkit-clip-path: polygon(
+    29% 0, 71% 0, 100% 29%, 100% 71%, 71% 100%, 29% 100%, 0 71%, 0 29%
+  );
+  -moz-clip-path: polygon(
+    29% 0, 71% 0, 100% 29%, 100% 71%, 71% 100%, 29% 100%, 0 71%, 0 29%
+  );
+  -ms-clip-path: polygon(
+    29% 0, 71% 0, 100% 29%, 100% 71%, 71% 100%, 29% 100%, 0 71%, 0 29%
+  );
+  clip-path: polygon(
+    29% 0, 71% 0, 100% 29%, 100% 71%, 71% 100%, 29% 100%, 0 71%, 0 29%
+  );
+}
+.nona {
+  -webkit-clip-path: polygon(
+    50% 0, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%
+  );
+  -moz-clip-path: polygon(
+    50% 0, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%
+  );
+  -ms-clip-path: polygon(
+    50% 0, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%
+  );
+  clip-path: polygon(
+    50% 0, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%
+  );
+}
