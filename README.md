@@ -4,6 +4,10 @@ GitHub repo for freeCodeCamp projects in HTML, CSS, Javascript
 ## These projects were made while studying front end curriculum from freeCodeCamp.com. 
 The files for each project are clearly named with the same name. This README includes links to the live project on CodePen when available as well as a short description. 
 
+# [Simple Calc](https://codepen.io/KristyStien/full/PEMgrb/)
+Simple calculator, the buttons are created in Javascript and styled with CSS Flexbox. 
+I learned how to make the calculator function with the code in the HTML from [this Youtube tutorial](https://www.youtube.com/watch?v=Xu2tulgn0KA)
+
 # [Wiki Viewer](https://codepen.io/KristyStien/pen/rYGWew)
 Uses CSS for styling and animations, Javascript to interact with Wikipedia API to get search results and to create html to display them once found.
 
