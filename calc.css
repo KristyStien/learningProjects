@@ -1,0 +1,43 @@
+body{
+    background-color: whitesmoke;
+}
+input[type="text"]{
+    height: 50px;
+    color: rgb(29, 29, 73);
+    font-size: 35px;
+    font-family: 'VT323', monospace;
+    
+}
+form{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 10% auto;
+}
+ #buttons{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.button{
+    height: 50px;
+    width: 50px;
+    color: whitesmoke;
+    background-color: rgb(29, 29, 73);
+    border-radius: 5px;
+    font-size: 32px;
+    font-family: 'VT323', monospace;
+}
+.cButton{
+    height: 50px;
+    width: 200px;
+    color: whitesmoke;
+    background-color: rgb(29, 29, 73);   
+    font-size: 32px;
+    font-family: 'VT323', monospace;
+}
+
