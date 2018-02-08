@@ -6,7 +6,7 @@ The files for each project are clearly named with the same name. This README inc
 
 # [Simple Calc](https://codepen.io/KristyStien/full/PEMgrb/)
 Simple calculator, the buttons are created in Javascript and styled with CSS Flexbox. 
-I learned how to make the calculator function with the code in the HTML from [this Youtube tutorial](https://www.youtube.com/watch?v=Xu2tulgn0KA)
+I learned how to make the calculator function with the code in the HTML from [this Youtube tutorial](https://www.youtube.com/watch?v=Xu2tulgn0KA) and decided it would be better/more fun to make button creation faster with a reusable Javascript function.
 
 # [Wiki Viewer](https://codepen.io/KristyStien/pen/rYGWew)
 Uses CSS for styling and animations, Javascript to interact with Wikipedia API to get search results and to create html to display them once found.
